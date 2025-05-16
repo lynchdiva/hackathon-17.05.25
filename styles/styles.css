@@ -1,0 +1,139 @@
+:root {
+    --background: rgb(239, 215, 215);   
+}
+
+img {
+    max-width: 100%;
+}
+.header-40 {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.3;
+    letter-spacing: -0.8px;
+}
+
+.header-32 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1.06;
+    letter-spacing: -0.01em;
+}
+
+.header-36 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: normal;
+    letter-spacing: -0.576px;
+}
+
+.header-24 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+}
+
+.text-40 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+}
+
+.text-30 {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.3;
+    letter-spacing: -0.012em;
+}
+.text-24 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: -0.02em;
+}
+.text-20 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.3;
+    letter-spacing: -0.24px;
+    color: #57585A;
+}
+
+.text-16 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.31;
+    letter-spacing: -0.014em;
+}
+
+@media (max-width: 1200px) {
+    .header-40 {
+        font-size: 36px;
+        line-height: 1.2;
+    }
+    
+    .header-36 {
+        font-size: 32px;
+    }
+
+    .header-32  {
+        font-size: 28px;
+    }
+
+    .header-24 {
+        font-size: 22px;
+    }
+
+    .text-30 {
+        font-size: 24px;
+    }
+	.text-24 {
+        font-size: 18px;
+    }
+    .text-20 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 640px) {
+    .header-40 {
+        font-size: 6.4vw;
+    }
+    
+    .header-36 {
+        font-size: 5.99vw;
+    }
+
+    .header-32 {
+        font-size: 5.86vw;
+    }
+
+    .header-24 {
+        font-size: 4.867vw;
+    }
+    
+    .text-40  {
+        font-size: 6.96vw;
+    }
+    .text-30 {
+        font-size: 4.8vw;
+    }
+	.text-24 {
+        font-size: 4.665vw;
+    }
+    .text-20 {
+        font-size: 4.8vw;
+    }
+
+    .text-16 {
+        font-size: 3.733vw;
+    }
+}
