@@ -16,6 +16,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
+      <link rel="stylesheet" href="./styles/chatbot.css" />
   </head>
   <body>
     <header class="header sticky-top">
@@ -40,7 +41,9 @@
         </div>
     </header>
     <div class="container">
-      <main>
+      <main></main>
+    <div class="container">
+      <main>пше 
         <section3>
           <h2 class="h2-slider">Совет дня</h2>
           <div class="slider-container">
@@ -49,6 +52,85 @@
             <button class="next-button">❱</button>
           </div>
         </section3>
+
+         <section>
+          <div
+            class="container d-flex justify-content-center align-items-center vh-100"
+          >
+            <div class="w-100" style="max-width: 600px">
+              <div class="card shadow">
+                <div class="card-body">
+                  <h2 class="card-title text-center mb-4 chatbot__title">
+                    <div class="chatbot__logo-container">
+                      <img
+                        class="chatbot__logo"
+                        src="./assets/images/logo.jpg"
+                        alt="hands with heart"
+                      />
+                    </div>
+                    Добрый помощник всегда рядом
+                  </h2>
+
+                  <!-- Ответ от AI -->
+                  <div
+                    id="aiResponse"
+                    class="border rounded p-3 mb-3 bg-light"
+                    style="min-height: 150px"
+                  ></div>
+
+                  <!-- Форма ввода -->
+                  <form id="chatForm">
+                    <div class="mb-3">
+                      <label for="userInput" class="form-label"
+                        >Задайте ваш вопрос:</label
+                      >
+                      <textarea
+                        id="userInput"
+                        class="form-control"
+                        rows="2"
+                      ></textarea>
+                    </div>
+
+                    <!-- Кнопки -->
+                    <div class="d-flex flex-wrap justify-content-center gap-2">
+                      <button
+                        type="submit"
+                        class="btn btn-primary chatbot__btn-send"
+                        id="sendBtn"
+                        disabled
+                      >
+                        Отправить
+                      </button>
+                      <button
+                        type="button"
+                        class="btn btn-secondary chatbot__btn-clear"
+                        id="clearBtn"
+                        disabled
+                      >
+                        Очистить
+                      </button>
+                      <button
+                        type="button"
+                        class="btn btn-warning chatbot__btn-explain"
+                        id="simplifyBtn"
+                        disabled
+                      >
+                        Это непонятно
+                      </button>
+                      <button
+                        type="button"
+                        id="voiceBtn"
+                        class="btn btn-secondary"
+                      >
+                        🎤 Говорить
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
     </div>
         <footer class="bg-light border-top mt-5 py-4">
@@ -88,5 +170,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="./scripts/script.js"></script>
+        <script src="./scripts/chatbot.js"></script>
   </body>
 </html>

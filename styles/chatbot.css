@@ -1,0 +1,101 @@
+.chatbot__logo-container {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+}
+
+.chatbot__logo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.chatbot__title {
+  color: #b53d40;
+}
+
+.chatbot__btn-send,
+.chatbot__btn-send:disabled,
+.chatbot__btn-send:active,
+.chatbot__btn-send:focus {
+  background-color: #faafa8;
+  color: rgb(45, 42, 42);
+  border: none;
+}
+
+.chatbot__btn-send:hover {
+  background-color: #ed8c83;
+  color: rgb(45, 42, 42);
+}
+
+.chatbot__btn-clear,
+.chatbot__btn-clear:disabled,
+.chatbot__btn-clear:active,
+.chatbot__btn-clear:focus {
+  background-color: #d3bfdb;
+  border: none;
+  color: rgb(45, 42, 42);
+}
+
+.chatbot__btn-clear:hover {
+  background-color: #d2a3e4;
+  color: rgb(45, 42, 42);
+}
+
+.chatbot__btn-explain,
+.chatbot__btn-explain:disabled,
+.chatbot__btn-explain:active,
+.chatbot__btn-explain:focus {
+  background-color: #fff8b8;
+  color: rgb(45, 42, 42);
+  border: none;
+}
+
+.chatbot__btn-explain:hover {
+  background-color: #f0e79a;
+  color: rgb(45, 42, 42);
+}
+
+#voiceBtn,
+#voiceBtn:disabled,
+#voiceBtn:active,
+#voiceBtn:focus {
+  background-color: #faafa8;
+  color: rgb(45, 42, 42);
+  border: none;
+}
+
+#voiceBtn:hover {
+  background-color: #ed8c83;
+  color: rgb(45, 42, 42);
+}
+
+#aiResponse {
+  max-height: 400px; /* ограничим высоту блока с ответами */
+  overflow-y: auto; /* добавим вертикальный скролл, если ответов много */
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #fafafa;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+.answer-block {
+  background-color: #d4e4ed8e;
+  border-left: 4px solid #00acc1;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  white-space: pre-line; /* сохраняет переносы строк */
+}
+
+.simplified-answer {
+  background-color: #fff8b888;
+  border-left: 4px solid #ffb300;
+  margin-bottom: 15px;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-style: italic;
+  white-space: pre-line;
+  color: #6d4c41;
+}
