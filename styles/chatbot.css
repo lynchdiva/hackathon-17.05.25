@@ -14,6 +14,17 @@
   color: #b53d40;
 }
 
+.chatbot-wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+@media (max-width: 576px) {
+  .chatbot-wrapper {
+    max-width: 100%;
+  }
+}
+
 .chatbot__btn-send,
 .chatbot__btn-send:disabled,
 .chatbot__btn-send:active,
