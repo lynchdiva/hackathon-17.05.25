@@ -606,3 +606,10 @@ $(document).ready(function() {
     
 
     });
+
+$(document).ready(function() {
+            $('#increase-font').click(function() {
+                let currentSize = parseInt($('#text').css('font-size'));
+                $('#text').css('font-size', (currentSize + 2) + 'px');
+            });
+        });
