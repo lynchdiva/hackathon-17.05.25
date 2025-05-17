@@ -1,6 +1,5 @@
 // Календарь и часы
-
-export function updateDateTime() {
+function updateDateTime() {
     const now = new Date();
     const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
     const dateStr = now.toLocaleDateString('ru-RU', options);
@@ -13,7 +12,7 @@ export function updateDateTime() {
 
 // Кнопка увеличения шрифта
 
-export function initHeaderEvents() {
+function initHeaderEvents() {
     const btn = document.getElementById('increase-font');
     if (btn) {
         btn.addEventListener('click', () => {
