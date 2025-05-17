@@ -23,6 +23,7 @@
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
     transition: all 0.3s ease;
     padding: 4px 8px;
+    color: white !important;
   }
 
   #increase-font {
