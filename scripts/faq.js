@@ -399,7 +399,7 @@ $(document).ready(function() {
         
         // Заголовки дней недели
         days.forEach(day => {
-            calendarHtml += `<div class="calendar-day header">${day}</div>`;
+            calendarHtml += `<div class="calendar-day">${day}</div>`;
         });
         
         // Пустые ячейки для начала месяца
