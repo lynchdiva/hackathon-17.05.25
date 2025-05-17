@@ -1,7 +1,9 @@
 :root {
     --background: rgb(239, 215, 215);   
 }
-
+* {
+    font-family: "Inter", sans-serif;
+}
 img {
     max-width: 100%;
 }
