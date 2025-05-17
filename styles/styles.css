@@ -150,3 +150,56 @@ img {
         font-size: 3.733vw;
     }
 }
+.h2-slider{
+text-align: center;
+padding-top: 100px;
+}
+.slider-container {
+    width: 70%;
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden; /* Скрываем элементы, выходящие за границы контейнера */
+    /* background-image:url(https://i.pinimg.com/originals/7a/77/8f/7a778fd1a1893acdf1e684f8d28f14d7.png) ; */
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out; /* Плавная анимация */
+    
+}
+
+.slide {
+    width: 100%; /* Ширина каждого слайда */
+    height: 300px;
+    flex-shrink: 0; /* Запрещаем слайдам сжиматься */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+ padding: 0 110px;
+ background-color: #d7f3ec;
+ border-color: #aeccdc;
+
+    }
+
+
+.prev-button, .next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color:rgb(80, 189, 178);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    z-index: 10; /* Чтобы кнопки были над слайдером */
+}
+
+.prev-button {
+    left: 10px;
+}
+
+.next-button {
+    right: 10px;
+}
