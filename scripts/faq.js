@@ -607,9 +607,3 @@ $(document).ready(function() {
 
     });
 
-$(document).ready(function() {
-            $('#increase-font').click(function() {
-                let currentSize = parseInt($('p').css('font-size'));
-                $('p').css('font-size', (currentSize + 2) + 'px');
-            });
-        });
