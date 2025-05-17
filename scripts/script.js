@@ -1,3 +1,12 @@
+
+import { updateDateTime, initHeaderEvents } from './header.js';
+
+document.addEventListener('DOMContentLoaded', () => {
+    updateDateTime();
+    setInterval(updateDateTime, 1000);
+    initHeaderEvents();
+});
+
 const slider = document.querySelector(".slider");
 const prevButton = document.querySelector(".prev-button");
 const nextButton = document.querySelector(".next-button");
@@ -57,6 +66,3 @@ prevButton.addEventListener("click", prevSlide);
 
 // Показываем первый слайд при загрузке страницы
 showSlide(slideIndex);
-
-
-
