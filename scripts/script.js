@@ -66,4 +66,3 @@ prevButton.addEventListener("click", prevSlide);
 
 // Показываем первый слайд при загрузке страницы
 showSlide(slideIndex);
->>>>>>> origin/main
