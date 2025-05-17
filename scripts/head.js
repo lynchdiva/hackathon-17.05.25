@@ -11,7 +11,6 @@ function updateDateTime() {
 }
 
 // Кнопка увеличения шрифта
-
 function initHeaderEvents() {
     const btn = document.getElementById('increase-font');
     if (btn) {
@@ -23,3 +22,10 @@ function initHeaderEvents() {
         });
     }
 }
+
+// Инициализация событий и обновление времени
+document.addEventListener('DOMContentLoaded', () => {
+    updateDateTime();
+    initHeaderEvents();
+    setInterval(updateDateTime, 1000);
+});
