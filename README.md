@@ -11,8 +11,9 @@
 - [x] HTML/CSS
 - [x] JavaScript
 - [x] Bootstrap v5.3
-- [x] localStorage
-- [x] jquery
+- [x] LocalStorage
+- [x] jQuery
+- [x] Tesseract
 - [x] SpeechRecognition (Web Speech API)
 - [x] Git & GitHub
 
